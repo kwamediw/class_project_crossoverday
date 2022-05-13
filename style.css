@@ -1,18 +1,63 @@
 /*Site Style*/
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-    color: black;
+h1 {
+  color: black;
+  line-height: 60px;
+  font-size: 70px;
 }
 
 /*Navbar*/
 
-
-
 /*Body*/
 
+/*style mediaqueries*/
+
+.container {
+  display: flex;
+  width: 100%;
+}
+/*left column*/
+.lefttext {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  flex: 33.33%;
+  text-align: left;
+}
+
+.pmain {
+  font-size: x-small;
+}
+.plink {
+  color: black;
+  font-weight: 700;
+  font-size: x-small;
+  text-decoration: none;
+}
+
+/* image column*/
+
+.image {
+  max-width: 100%;
+}
+#resize {
+  max-width: 90%;
+  height: auto;
+  align-items: baseline;
+}
+
+/* right column*/
+
+.headline {
+  flex: 43.33%;
+  align-self: center;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  left: -20%;
+}
 
 /*Footer*/
