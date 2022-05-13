@@ -76,12 +76,15 @@ a:hover {
     opacity: 0.6;
     transition: 0.5s;
 }
+
 .icon-list-item {
     display: inline-block;
     padding: 10px;
 }
 
 h5 {
-    font-family: 'Montserrat',  #222222;
+    font-family: 'Montserrat-Semibold',  #222222;
     font-size: 51px;
 }
+
+/* responsive */
