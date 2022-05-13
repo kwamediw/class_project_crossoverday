@@ -5,7 +5,8 @@ Integrate a website from a PSD and rebuild it.
 
 https://www.freepik.com/free-psd/landing-page-minimal-style-art-gallery-with-man_12216601.htm#query=website%20templates&position=2&from_view=keyword#position=2&query=website%20templates
 
-
+# Languages used:
+HTML and CSS
 
 # participants:
 
