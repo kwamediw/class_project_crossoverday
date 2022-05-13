@@ -1,19 +1,46 @@
-/*Site Style*/
-
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
     color: black;
 }
 
-/*Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
 
+#left-logo {
+    width: 115px;
+    height: 25px;
+    padding: 25px 0 0 35px;
+}
 
+#right-logo {
+    width: 36px;
+    height: 22px;
+    padding: 25px 35px 0 0;
+}
 
-/*Body*/
+header {
+    padding: 29px;
+}
 
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding: 25px;
+}
+
+a:hover {
+    background-color: #0e0e0e;
+    color: white;
+    height: 10px;
+    border-radius: 20px;
+}
 
 /*Footer*/
 .footer {
