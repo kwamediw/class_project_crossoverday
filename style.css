@@ -16,4 +16,45 @@ h1{
 
 
 /*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
 
+.social-media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+#icon-list {
+    list-style-type: none; 
+}
+
+.icon-img {
+    width: 100px;
+    height: 100px;
+}
+
+.sm :hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.icon-list-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+h5 {
+    font-family: 'Montserrat',  #222222;
+    font-size: 50px;
+}
