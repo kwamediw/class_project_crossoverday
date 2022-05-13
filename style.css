@@ -18,6 +18,13 @@ nav {
     padding: 25px 0 0 35px;
 }
 
+input[type=search] {
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 22px;
+    width: 250px;
+}
+
 #right-logo {
     width: 36px;
     height: 22px;
@@ -40,6 +47,36 @@ header a {
     color: white;
     height: 10px;
     border-radius: 20px;
+    border: 2px solid whitesmoke;
+    transition: 1s;
+}
+
+@media screen and (max-width: 320px) {
+    nav {
+        background-color: rgb(7, 7, 7);
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        min-width: 400px;
+        color: whitesmoke;
+    }
+
+    .header1 {
+        display: block;
+        width: 185px;
+        text-align: center;
+        font-weight: bold;
+        color: aliceblue;
+        margin-left: 50px;
+    }
+
+    #right-logo {
+        min-width: 400px;
+    }
+
+    input[type=search] {
+        min-width: 400px;
+    }
 }
 
 /*Footer*/
