@@ -98,10 +98,13 @@ h5 {
 .container {
   display: flex;
   width: 100%;
+  margin-top: 2rem;
 }
 /*left column*/
 .lefttext {
+  float: left;
   margin-top: 4rem;
+  margin-left: 2rem;
   margin-right: 4rem;
   flex: 33.33%;
   text-align: left;
@@ -136,7 +139,7 @@ h5 {
   margin: 0%;
   padding: 0%;
   position: relative;
-  left: -20%;
+  left: -10%;
 }
 
 /*Footer*/
