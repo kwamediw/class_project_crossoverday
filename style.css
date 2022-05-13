@@ -1,8 +1,43 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
     color: black;
 }
 
+nav {
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85px;
+    font-weight: bold;
+}
+
+#left-logo {
+    width: 150px;
+    height: 19px;
+    margin: 15px 0 0 35px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+header {
+    display: flex;
+}
+
+#right-logo {
+    width: 30px;
+    height: 19px;
+    margin-top: 15px;
+    margin: 15px 35px 0 0;
+}
